@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+	int a=0;
+	int b=0;
+	int x=0;
+	printf("enter height \n");
+	scanf("%d", &a);
+	printf("enter base \n");
+	scanf("%d", &b);
+	x=a*a + b*b;
+	float d=sqrt(x);
+	printf("the hypotenous is %d \n", d);
+	return 0;
+	
+}
