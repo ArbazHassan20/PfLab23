@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(){
+	int op;
+	float d;
+	float np;
+	int x;
+	printf("enter the original price\n");
+	scanf("%d",&op);
+	printf("enter the discount\n");
+	scanf("%f",&d);
+	np=op*d;
+	x=op-np;
+	printf(" the new price is %d\n",x);
+	return 0;
+}
