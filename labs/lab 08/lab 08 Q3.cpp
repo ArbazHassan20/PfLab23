@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+	//an array to store string
+    char text[100];
+    char searchChar;
+    int count = 0,i;
+    
+    //enter the string
+    printf("Enter a string: ");
+    fgets(text, sizeof(text), stdin);
+    
+    printf("Enter a character to search for: ");
+    scanf(" %c", &searchChar); // Note the space before %c to consume any leading whitespace.
+    
+    //looping the whole string to find the character
+    for (i = 0; text[i] != '\0'; i++) {
+        if (text[i] == searchChar) {
+            count++;
+        }
+    }
+
+    printf("Total occurrences of '%c' in the text: %d\n", searchChar, count);
+
+    return 0;
+}
