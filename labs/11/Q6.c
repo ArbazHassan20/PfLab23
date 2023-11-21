@@ -1,3 +1,9 @@
+/*
+Name:Arbaz Hassan Narejo
+Id:22k-4031
+Date:21/11/2023
+Program 6
+*/
 #include <stdio.h>
 
 // Define the Date structure
