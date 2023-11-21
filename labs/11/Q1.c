@@ -1,3 +1,9 @@
+/*
+Name:Arbaz Hassan Narejo
+Id:22k-4031
+Date:21/11/2023
+Program 1
+*/
 #include <stdio.h>
 
 // Define the structure for student data
